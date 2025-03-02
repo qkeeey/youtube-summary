@@ -10,6 +10,9 @@ A **Streamlit** web application designed to help you monitor and stay up-to-date
 - **Customizable Summary Styles**: Choose how the summaries are presented (step-by-step, bullet points, story-based, etc.).
 - **Data Persistence**: Uses CSV files (`channels.csv` and `videos.csv`) to store channel data, video metadata, and summaries.
 
+## Screenshot
+![App Screenshot](misc/demo_image.png)
+
 ## Overview of Implementation
 1. **Initialization**:
    - The app checks for two CSV files (`channels.csv` and `videos.csv`) in a `data` folder. If they don't exist, it creates them with the necessary headers.
